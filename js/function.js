@@ -277,9 +277,9 @@ function mouseWheel(obj,shang,xia){
 		},false)
 
 	}
-	touch_dblclick(box,function(){
-		box.style.background="blue";
-	})
+	// touch_dblclick(box,function(){
+	// 	box.style.background="blue";
+	// })
 	
 	//长按
 	function press(obj,fn){
@@ -297,6 +297,6 @@ function mouseWheel(obj,shang,xia){
 			clearTimeout(t)
 		},false)
 	}
-	press(box,function(){
-		box.style.background="blue";
-	})
+	// press(box,function(){
+	// 	box.style.background="blue";
+	// })

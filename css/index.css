@@ -24,6 +24,9 @@ header main ul li{
 	height: 100%;
 	float: left;
 	margin: 0 16px;
+	
+}
+header main ul li:first-child{
 	position: relative;
 }
 header main ul li a{
@@ -36,7 +39,7 @@ header main ul li:hover a{
 	color: #ff3795;
 }
 header main ul li span{
-	width: 100%;
+	width: 36px;
 	height: 7px;
 	background: #ff3795;
 	position: absolute;
@@ -44,6 +47,7 @@ header main ul li span{
 	right: 0;
 	margin: 0 auto;
 	bottom: 0;
+	transition: all 0.2s linear;
 }
 .banner{
 	width: 100%;
@@ -117,7 +121,7 @@ header main ul li span{
 	color: #fff;
 }
 .banner .gunlun{
-	width: 67px;
+	width: 87px;
 	height: 10px;
 	position: absolute;
 	left: 0;
@@ -132,6 +136,8 @@ header main ul li span{
 	margin: 0 3px;
 	background: #fff;
 	float: left;
+	opacity: 0.5;
+	transition: all 0.2s linear;
 }
 
 .jianjie{
@@ -212,7 +218,7 @@ header main ul li span{
 	width: 100%;
 	height: 313px;
 	display: block;
-	background: pink;
+	
 }
 .jianjie main ul li a .xia{
 	width: 100%;
@@ -274,7 +280,8 @@ header main ul li span{
 .dashiji .toptu{
 	width: 100%;
 	height: 590px;
-	background: pink;
+	background: url('../img/banner3.png') no-repeat center center;
+	background-size: 100%;
 	position: relative;
 }
 .dashiji .toptu .zi{
@@ -381,7 +388,6 @@ header main ul li span{
 	width: 100%;
 	height: 225px;
 	display: block;
-	background: blue;
 }
 .dashiji .dsjxia main ul li a .dianji{
 	width: 103px;
@@ -427,3 +433,659 @@ header main ul li span{
 	text-align: center;
 	font-weight: 400;
 }
+/* 合作伙伴 */
+.huoban{
+	width: 100%;
+	height: 741px;
+	margin-top: 312px;
+	position: relative;
+	/* overflow: hidden; */
+}
+.huoban .beijing{
+	width: 1275px;
+	height: 444px;
+	background: #FF3895;
+	position: relative;
+}
+.huoban .beijing img{
+	width: 568px;
+	height: 603px;
+	display: block;
+
+	position: absolute;
+	bottom: 0;
+	left: 175px;
+}
+.huoban .fudong{
+	width: 100%;
+	height: 600px;
+	position: absolute;
+	left: 0;
+	top: 150px;
+	overflow: hidden;
+}
+.huoban .fu{
+	width: 1200px;
+	height: 100%;
+	/* float: right; */
+	margin: 0 auto;
+	background: #fff;
+}
+.huoban .fu .zuo{
+	float: left;
+}
+.huoban .fu .zuo .zuoz{
+	width: 728px;
+	float: left;
+}
+.huoban .fu .zuo .zuoz img{
+	width: 728px;
+	height: 496px;
+	display: block;
+	
+}
+.huoban .fu .zuo .zuoz a{
+	width: 74pt;
+	height: 20pt;
+	display: block;
+	background: #ffdc36;
+	font-size: 18px;
+	line-height: 20pt;
+	text-align: center;
+	color: #000;
+	margin-top: 30px;
+	margin-left: 7px;
+}
+.huoban .fu .zuo .zuoz a:hover{
+	background: #ff3795;
+	color: #fff;
+}
+
+.huoban .fu .zuo .zuoy{
+	width: 472px;
+	float: left;
+	overflow: hidden;
+}
+.huoban .fu .zuo .zuoy span{
+	font-size: 18px;
+	color: #ff3795;
+	margin-left: 65px;
+	margin-top: 35px;
+	display: block;
+}
+.huoban .fu .zuo .zuoy h2{
+	font-size: 36px;
+	color: #ff3795;
+	margin-left: 65px;
+	margin-top: 5px;
+	font-weight: 400;
+}
+.huoban .fu .zuo .zuoy p{
+	font-size: 12px;
+	color: #333;
+	margin-left: 65px;
+	margin-right: 65px;
+	margin-top: 10px;
+}
+.huoban .fu .zuo .zuoy img{
+	width: 100%;
+	height: 316px;
+	
+	margin-top: 90px;
+}
+.huoban .fu::after{
+	content: '';
+	display: block;
+	height: 176px;
+	width: 1000px;
+	position: absolute;
+	left: 1275px;
+	top: 210px;
+	background: #ff3895;
+}
+
+/* 加盟案例 */
+
+.anli{
+	width: 100%;
+	height: auto;
+}
+.anli main{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	/* overflow: hidden; */
+	padding-top: 234px; 
+}
+.anli main .title{
+	width: 148px;
+	height: auto;
+	margin:0 auto;
+	position: relative;
+}
+.anli main .title p{
+	font-size: 12px;
+	color: #000;
+	margin-bottom: 8px;
+}
+.anli main .title span{
+	font-size: 22px;
+	color: #000;
+	letter-spacing: 14px;
+	padding-bottom: 8px;
+}
+.anli main .title span::before{
+	content: '';
+	display: block;
+	width: 90px;
+	height: 0;
+	padding-top: 8px;
+	border-top: 1px dashed #ccc;
+}
+.anli main .title span::after{
+	content: '';
+	display: block;
+	width: 124px;
+	height: 0;
+	margin-top: 8px;
+	border-top: 1px dashed #000;
+}
+.anli main .title .tiao{
+	position: absolute;
+	bottom: -2px;
+	left: 0;
+	width: 17px;
+	height: 4px;
+	background: #000;
+}
+.anli main .albox{
+	width: 100%;
+	height: 668px;
+	margin-top: 52px;
+	margin-bottom: 48px;
+	position: relative;
+	 box-shadow: 0 0 20px 10px #eee;
+}
+.anli main .albox .albox1{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+   
+}
+.anli main .albox img{
+	width: 500px;
+	height: 100%;
+	display: block;
+	float: left;
+}
+.anli main .albox .alyou{
+	width: 700px;
+	height: 100%;
+	padding: 132px 79px 0 40px;	
+	box-sizing: border-box;
+	float: right;
+}
+.anli main .albox .alyou h2{
+	font-size: 24px;
+	color: #333;
+	font-weight: 400;
+}
+.anli main .albox .alyou h3{
+	font-size: 14px;
+	color: #999;
+	font-weight: 400;
+	margin-top: 18pt;
+	padding-bottom: 60px;
+	border-bottom: 2px solid #d1d1d1;
+}
+.anli main .albox .alyou p{
+	font-size: 14px;
+	color: #333;
+	font-weight: 400;
+	margin-top: 12pt;	
+}
+.anli main .albox .alyou a{
+	width: 151px;
+	height: 38px;
+	display: block;
+	background: #ffdc36;
+	font-size: 20px;
+	color: #333;
+	text-align: center;
+	line-height: 38px;
+	margin-top: 108px;
+	margin-left: 371px;
+	transition: all 0.2s linear;
+}
+.anli main .albox .alyou a:hover{
+	background: #ff3795;
+	color: #fff;
+}
+.anli main .gunlun{
+	width: 83px;
+	height: 11px;
+	margin: 0 auto;
+}
+.anli main .gunlun .lun{
+	width: 11px;
+	height: 11px;
+	border-radius: 5px;
+	background: #ffdc36;
+	float: left;
+	margin: 0 3px;
+}
+.anli main .gunlun .lun:nth-child(2){
+	width: 26px;
+	background: #ff3795;
+} 
+
+/* 企业环境 */
+.huanjing{
+	width: 100%;
+	height: auto;
+}
+.huanjing main{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	/* overflow: hidden; */
+	padding-top: 220px; 
+}
+.huanjing main .title{
+	width: 148px;
+	height: auto;
+	margin:0 auto;
+	position: relative;
+}
+.huanjing main .title p{
+	font-size: 12px;
+	color: #000;
+	margin-bottom: 8px;
+}
+.huanjing main .title span{
+	font-size: 22px;
+	color: #000;
+	letter-spacing: 14px;
+	padding-bottom: 8px;
+}
+.huanjing main .title span::before{
+	content: '';
+	display: block;
+	width: 90px;
+	height: 0;
+	padding-top: 8px;
+	border-top: 1px dashed #ccc;
+}
+.huanjing main .title span::after{
+	content: '';
+	display: block;
+	width: 124px;
+	height: 0;
+	margin-top: 8px;
+	border-top: 1px dashed #000;
+}
+.huanjing main .title .tiao{
+	position: absolute;
+	bottom: -2px;
+	left: 0;
+	width: 17px;
+	height: 4px;
+	background: #000;
+}
+.huanjing main .xia{
+	width: 100%;
+	height: auto;
+	margin-top: 57px;
+	display: block;
+	overflow: hidden;
+}
+.huanjing main .xia .left{
+	width: 609px;
+	height: auto;
+	display: block;
+	padding: 62px 75px 0 10px;
+	box-sizing: border-box;
+	float: left;
+}
+.huanjing main .xia .left h2{
+	font-size: 28px;
+	color: #333;
+}
+.huanjing main .xia .left h2 span{
+	font-size: 32px;
+	color: #ff3795;
+}
+.huanjing main .xia .left h3{
+	font-size: 18px;
+	color: #333;
+	font-weight: 400;
+	padding-bottom: 40px;
+	border-bottom: 1px dashed #b2b2b2;
+	position: relative;
+}
+.huanjing main .xia .left h3 .tiao{
+	width: 22px;
+	height: 4px;
+	background:#ff3795;
+	position: absolute;
+	left: 0;
+	bottom: -2px; 
+}
+.huanjing main .xia .left h4{
+	font-size: 14px;
+	color: #333;
+	margin-top: 63px;
+}
+.huanjing main .xia .left p{
+	font-size: 14px;
+	color: #999;
+	margin-top: 42px;
+}
+.huanjing main .xia .left a{
+	font-size: 20px;
+	color: #333;
+	margin-top: 26px;
+	margin-left: 10px;
+	width: 151px;
+	height: 38px;
+	display: block;
+	background:#ffdc36; 
+	text-align: center;
+	line-height: 38px;
+	transition: all 0.2s linear;
+}
+.huanjing main .xia .left a:hover{
+	background: #ff3795;
+	color: #fff;
+}
+.huanjing main .xia .right{
+	width: 591px;
+	height: auto;
+	float: right;
+}
+.huanjing main .xia .right .imgs{
+	width: 594px;
+	height: 396px;
+	position: relative;
+}
+.huanjing main .xia .right .imgs img{
+	width: 594px;
+	height: 396px;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.huanjing main .xia .right .xxia{
+	margin-top: 15px;
+	overflow: hidden;
+}
+.huanjing main .xia .right .gunlun{
+	width: 64px;
+	height: 8px;
+	float: left;
+	margin-left: 353px;
+	margin-top: 10px;
+}
+.huanjing main .xia .right .gunlun .lun{
+	width: 6px;
+	height: 6px;
+	background: #c7c7c7;
+	border: 1px solid #c7c7c7;
+	border-radius: 50%;
+	margin: 0 4px;
+	float: left;
+}
+.huanjing main .xia .right .gunlun .lun:hover{
+	background: #fff;
+}
+.huanjing main .xia .right .gun{
+	float: left;
+	margin-left: 33px;
+}
+.huanjing main .xia .right .gun .zuo{
+	width: 28px;
+	height: 28px;
+	background: #434343;
+	font-size: 14px;
+	color: #fff;
+	float: left;
+	text-align: center;
+	line-height: 28px;
+	cursor: pointer;
+}
+.huanjing main .xia .right .gun .you{
+	width: 28px;
+	height: 28px;
+	background: #434343;
+	font-size: 14px;
+	color: #fff;
+	float: left;
+	text-align: center;
+	line-height: 28px;
+	cursor: pointer;
+}
+.huanjing main .xia .right .gun .zuo:hover{
+	background: #ff3795;
+}
+.huanjing main .xia .right .gun .you:hover{
+	background: #ff3795;
+}
+
+/* 咨询中心 */
+
+.zhongxin{
+	width: 100%;
+	height: auto;
+}
+.zhongxin main{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	/* overflow: hidden; */
+	padding-top: 220px; 
+}
+.zhongxin main .title{
+	width: 148px;
+	height: auto;
+	margin:0 auto;
+	position: relative;
+}
+.zhongxin main .title p{
+	font-size: 12px;
+	color: #000;
+	margin-bottom: 8px;
+}
+.zhongxin main .title span{
+	font-size: 22px;
+	color: #000;
+	letter-spacing: 14px;
+	padding-bottom: 8px;
+}
+.zhongxin main .title span::before{
+	content: '';
+	display: block;
+	width: 90px;
+	height: 0;
+	padding-top: 8px;
+	border-top: 1px dashed #ccc;
+}
+.zhongxin main .title span::after{
+	content: '';
+	display: block;
+	width: 124px;
+	height: 0;
+	margin-top: 8px;
+	border-top: 1px dashed #000;
+}
+.zhongxin main .title .tiao{
+	position: absolute;
+	bottom: -2px;
+	left: 0;
+	width: 17px;
+	height: 4px;
+	background: #000;
+}
+.zhongxin main ul{
+	width: 100%;
+	height: 508px;
+	margin-top: 70px;
+	display: flex;
+	justify-content: space-between;
+}
+.zhongxin main ul li{
+	width: 337px;
+	height: 100%;
+}
+.zhongxin main ul li a{
+	width: 100%;
+	height: 498px;
+	display: block;
+	position: relative;
+}
+.zhongxin main ul li a img{
+	width: 100%;
+	height: 498px;
+	display: block;
+}
+.zhongxin main ul li:hover a img{
+	opacity: 0;
+}
+.zhongxin main ul li a h3{
+	font-size: 32px;
+	color: #ff3795;
+	position: absolute;
+	top: 357px;
+	left: 10px;
+	font-weight: 400;
+}
+.zhongxin main ul li a span{
+	font-size: 22px;
+	color: #ff3795;
+	position: absolute;
+	top: 396px;
+	left: 10px;
+}
+.zhongxin main ul li a .tiao{
+	width: 266px;
+	height: 10px;
+	margin: 0 auto;
+	background: #fff43c;
+}
+
+footer{
+	width: 100%;
+	height: 368px;
+	background: #e82281;
+	margin-top: 177px;
+}
+footer main{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	padding-top: 120px;
+	box-sizing: border-box;
+}
+footer main .left{
+	width: 33.3%;
+	height: auto;
+	float: left;
+	border-right: 1px solid #8b144d;
+}
+footer main .left h2{
+	font-size: 14px;
+	color: #fff;
+	font-weight: 400;
+}
+footer main .left h3{
+	font-size: 14px;
+	color: #fff;
+	font-weight: 400;
+	margin-top: 10px;
+}
+footer main .left h4{
+	font-size: 14px;
+	color: #fff;
+	font-weight: 400;
+	margin-top: 35px;
+}
+footer main .left span{
+	font-size: 14px;
+	color: #fff;
+	font-weight: 400;
+	margin-top: 20px;
+	margin-left: 40px;
+}
+footer main .left h5{
+	font-size: 14px;
+	color: #fff;
+	font-weight: 400;
+	margin-top: 20px;
+}
+footer main .left h6{
+	font-size: 14px;
+	color: #fff;
+	font-weight: 400;
+	margin-top: 20px;
+}
+footer main .left p{
+	font-size: 14px;
+	color: #fff;
+	font-weight: 400;
+	margin-top: 20px;
+}
+footer main .zhong{
+	width: 33%;
+	height: 100%;
+	float: left;
+	padding-left: 53px;
+	box-sizing: border-box;
+}
+footer main .zhong h2{
+	font-size: 14px;
+	color: #fff;
+	font-weight: 400;
+}
+footer main .zhong h3{
+	font-size: 14px;
+	color: #fff;
+	font-weight: 400;
+	margin-top: 10px;
+}
+footer main .zhong ul{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin-top: 35px;
+}
+footer main .zhong ul li{
+	width: auto;
+	height: auto;
+	float: left;
+	margin-right: 20px;
+}
+footer main .zhong ul li:last-child{
+	margin-right: 0;
+}
+footer main .zhong ul li a{
+	font-size: 16px;
+	color: #fff;
+}
+footer main img{
+	width: 217px;
+	height: 210px;
+	display: block;
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
