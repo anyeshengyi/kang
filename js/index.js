@@ -1,15 +1,16 @@
 $(function(){
 	var headtiao=$(".headtiao")[0];
 	var list=$('.biaoti');
+	var w;
+	var wx;
 	for(let i=0;i<list.length;i++){
 		list[i].onmouseover=function(){
-			// console.log(list)
-			var w=list[i].offsetWidth;
-			var wx=list[i].offsetLeft-list[0].offsetLeft;
-
+			w=list[i].offsetWidth;
+			wx=list[i].offsetLeft-list[0].offsetLeft;
 			headtiao.style.width=w+'px';
-			list[i].style.color="#FF3795";
+			// list[i].style.color="#FF3795";
 			headtiao.style.left=wx+"px";
+			
 		}
 	}
 
@@ -104,9 +105,16 @@ $(function(){
 	var lun2=document.querySelectorAll(".huanjing .lun");
 	var zuo=document.querySelector(".huanjing .zuo");
 	var you=document.querySelector(".huanjing .you");
+	
+	for(var j=0;j<lun2.length;j++){
+		img2[j].style.display="none";
+		lun2[j].style.background="#c7c7c7"
+	}
 	img2[0].style.display="block";
 	lun2[0].style.background="#fff";
+	var num2=0;
 	for(let i=0;i<lun2.length;i++){
+		
 		lun2[i].onmouseover=function(){
 			for(var j=0;j<lun2.length;j++){
 				img2[j].style.display="none";
@@ -115,8 +123,35 @@ $(function(){
 			img2[i].style.display="block";
 			lun2[i].style.background="#fff"
 		}
-	}
+		
 
+	}
+	// var num2=lun2.length-1;
+	zuo.onclick=function(){
+		num2--;
+		if(num2<0){
+			num2=0;
+		}
+		for(var j=0;j<lun2.length;j++){
+			img2[j].style.display="none";
+			lun2[j].style.background="#c7c7c7"
+		}
+		img2[num2].style.display="block";
+		lun2[num2].style.background="#fff"
+	}		
+	you.onclick=function(){
+		num2++;
+		if(num2==lun2.length){
+			num2=lun2.length-1;
+		}
+		for(var j=0;j<lun2.length;j++){
+			img2[j].style.display="none";
+			lun2[j].style.background="#c7c7c7"
+		}
+		img2[num2].style.display="block";
+		lun2[num2].style.background="#fff";
+	}
+		
 
 
 

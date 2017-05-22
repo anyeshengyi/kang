@@ -51,7 +51,7 @@ header main ul li span{
 }
 .banner{
 	width: 100%;
-	height: 628px;
+	height: 480px;
 	overflow: hidden;
 	position: relative;
 }
@@ -187,7 +187,7 @@ header main ul li span{
 }
 .jianjie main .title .tiao{
 	position: absolute;
-	bottom: 0;
+	bottom: -1px;
 	left: 0;
 	width: 17px;
 	height: 4px;
@@ -981,7 +981,7 @@ header main ul li span{
 
 footer{
 	width: 100%;
-	height: 368px;
+	height: 36	8px;
 	background: #e82281;
 	margin-top: 177px;
 }
@@ -989,7 +989,7 @@ footer main{
 	width: 1200px;
 	height: 100%;
 	margin: 0 auto;
-	padding-top: 120px;
+	padding-top: 70px;
 	box-sizing: border-box;
 }
 footer main .left{
@@ -1000,6 +1000,11 @@ footer main .left{
 }
 footer main .left h2{
 	font-size: 14px;
+	color: #fff;
+	font-weight: 400;
+}
+footer main .left h2 i{
+	font-size: 18px;
 	color: #fff;
 	font-weight: 400;
 }
@@ -1039,6 +1044,26 @@ footer main .left p{
 	color: #fff;
 	font-weight: 400;
 	margin-top: 20px;
+}
+footer main .left h4 i{
+	font-size: 14px;
+	color: #333;
+	font-weight: 400;
+}
+footer main .left h5 i{
+	font-size: 14px;
+	color: #333;
+	font-weight: 400;
+}
+footer main .left h6 i{
+	font-size: 18px;
+	color: #333;
+	font-weight: 400;
+}
+footer main .left p i{
+	font-size: 20px;
+	color: #333;
+	font-weight: 400;
 }
 footer main .zhong{
 	width: 33%;
