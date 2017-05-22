@@ -138,6 +138,7 @@ header main ul li span{
 	float: left;
 	opacity: 0.5;
 	transition: all 0.2s linear;
+	cursor: pointer;
 }
 
 .jianjie{
@@ -414,8 +415,10 @@ header main ul li span{
 	background: #ffdc36;
 	float: left;
 	margin: 0 3px;
+	cursor: pointer;
+	transition: all 0.2s linear;
 }
-.dashiji .dsjxia main .gunlun .lun:nth-child(2){
+.dashiji .dsjxia main .gunlun .lun:nth-child(1){
 	width: 26px;
 	background: #ff3795;
 } 
@@ -612,7 +615,7 @@ header main ul li span{
 	position: absolute;
 	top: 0;
 	left: 0;
-   
+   	transition: all 0.2s linear;
 }
 .anli main .albox img{
 	width: 500px;
@@ -675,8 +678,9 @@ header main ul li span{
 	background: #ffdc36;
 	float: left;
 	margin: 0 3px;
+	transition: all 0.2s linear;
 }
-.anli main .gunlun .lun:nth-child(2){
+.anli main .gunlun .lun:nth-child(1){
 	width: 26px;
 	background: #ff3795;
 } 
