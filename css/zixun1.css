@@ -1,0 +1,344 @@
+header{
+	width: 100%;
+	height: 98px;
+	overflow: hidden;
+}
+header main{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+header main img{
+	width: 250px;
+	height: 108px;
+	display: block;
+	float: left;
+}
+header main ul{
+	width: auto;
+	height: 100%;
+	float: right;
+}
+header main ul li{
+	width: auto;
+	height: 100%;
+	float: left;
+	margin: 0 16px;
+	
+}
+header main ul li:first-child{
+	position: relative;
+}
+header main ul li a{
+	font-size: 18px;
+	color: #434343;
+	display: block;
+	line-height: 98px;
+}
+header main ul li:hover a{
+	color: #ff3795;
+}
+header main ul li span{
+	width: 36px;
+	height: 7px;
+	background: #ff3795;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	bottom: 0;
+	transition: all 0.2s linear;
+}
+
+
+.tuandui{
+	width: 100%;
+	/* height: 1292px; */
+	background: #fff;
+	padding-bottom: 60px;
+}
+.tuandui main{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 36px 100px 0 95px;
+	box-sizing: border-box;
+}
+.tuandui main .nav{
+	width: auto;
+	height: auto;
+}
+
+.tuandui main .nav a{
+	font-size: 14px;
+	color: #333;
+	font-weight: 400;
+	float: left;
+	margin-left: 4px;
+}
+.tuandui main .nav a:last-child{
+	color: #ff3795;
+}
+.tuandui main .nav span{
+	font-size: 14px;
+	color: #333;
+	font-weight: 400;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.tuandui main .title{
+	width: 100%;
+	height: 64px;
+	
+	margin-top: 77px;
+}
+.tuandui main .title .left{
+	margin-left: 87px;
+	float: left;
+	position: relative;
+}
+.tuandui main .title .left h2{
+	font-size: 20px ;
+	color: #ff3795;
+	font-weight: 400;
+}
+.tuandui main .title .left h3{
+	font-size: 18px ;
+	color: #ff3795;
+	font-weight: 400;
+	margin-top: 10px;
+}
+.tuandui main .title .left h4{
+	font-size: 6px ;
+	color: #62c3bf;
+	font-weight: 400;
+	margin-top: 7px;
+}
+.tuandui main .title .left h4 span{
+	width: 4px;
+	height: 4px;
+	display: block;
+	border-radius: 50%;
+	background: #ff3795;
+	margin-left: 10px;
+	margin-top: 5px;
+	float: left;
+}
+.tuandui main .title .left h4 span:last-child{
+	margin-left: 2px;
+	margin-right: 4px;
+}
+.tuandui main .title .left img{
+	width: 20px;
+	height: 10px;
+	display: block;
+	position: absolute;
+	top: -28px;
+	left: 114px;
+}
+.tuandui main .title .right{
+	width: 653px;
+    height: 2px;
+    background: #ff3795;
+    margin-top: 25px;
+    float: right;
+    position: relative;
+}
+.tuandui main .title .right img{
+	width: 10px;
+	height: 5px;
+	display: block;
+	position: absolute;
+	top: 10px;
+	left: 93px;
+}
+.tuandui main .neirong{
+	width: 719px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 42px;
+}
+.tuandui main .neirong h2{
+	font-size: 20px ;
+	color: #ff3795;
+	text-align: center;
+} 
+.tuandui main .neirong p{
+	font-size: 12px;
+	color: #666;
+}
+.tuandui main .neirong span{
+	font-size: 14px;
+	color: #666;
+	margin-top: 26px;
+	display: block;
+}
+.tuandui main .neirong .imgs{
+	width: 719px;
+	height: 513px;
+	margin-top: 26px;
+}
+.tuandui main .neirong .imgs .imgz{
+	float: left;
+	width: 413px;
+	height: 100%;
+}
+.tuandui main .neirong .imgs .imgz .img1{
+	width: 100%;
+	height: 247px;
+	display: block;
+}
+.tuandui main .neirong .imgs .imgz .img2{
+	width: 100%;
+	height: 256px;
+	display: block;
+	margin-top: 10px;
+}
+.tuandui main .neirong .imgs .imgl{
+	float: right;
+	width: 293px;
+	height: 100%;
+}
+.tuandui main .neirong .imgs .imgl .img3{
+	width: 100%;
+	height: 341px;
+	display: block;
+}
+.tuandui main .neirong .imgs .imgl .img4{
+	width: 100%;
+	height: 156px;
+	display: block;
+	margin-top: 10px;
+}
+
+footer{
+	width: 100%;
+	height: 368px;
+	background: #e82281;
+	/* margin-top: 177px; */
+}
+footer main{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	padding-top: 70px;
+	box-sizing: border-box;
+}
+footer main .left{
+	width: 33.3%;
+	height: auto;
+	float: left;
+	border-right: 1px solid #8b144d;
+}
+footer main .left h2{
+	font-size: 14px;
+	color: #fff;
+	font-weight: 400;
+}
+footer main .left h2 i{
+	font-size: 18px;
+	color: #fff;
+	font-weight: 400;
+}
+footer main .left h3{
+	font-size: 14px;
+	color: #fff;
+	font-weight: 400;
+	margin-top: 10px;
+}
+footer main .left h4{
+	font-size: 14px;
+	color: #fff;
+	font-weight: 400;
+	margin-top: 35px;
+}
+footer main .left span{
+	font-size: 14px;
+	color: #fff;
+	font-weight: 400;
+	margin-top: 20px;
+	margin-left: 40px;
+}
+footer main .left h5{
+	font-size: 14px;
+	color: #fff;
+	font-weight: 400;
+	margin-top: 20px;
+}
+footer main .left h6{
+	font-size: 14px;
+	color: #fff;
+	font-weight: 400;
+	margin-top: 20px;
+}
+footer main .left p{
+	font-size: 14px;
+	color: #fff;
+	font-weight: 400;
+	margin-top: 20px;
+}
+footer main .left h4 i{
+	font-size: 14px;
+	color: #333;
+	font-weight: 400;
+}
+footer main .left h5 i{
+	font-size: 14px;
+	color: #333;
+	font-weight: 400;
+}
+footer main .left h6 i{
+	font-size: 18px;
+	color: #333;
+	font-weight: 400;
+}
+footer main .left p i{
+	font-size: 20px;
+	color: #333;
+	font-weight: 400;
+}
+footer main .zhong{
+	width: 33%;
+	height: 100%;
+	float: left;
+	padding-left: 53px;
+	box-sizing: border-box;
+}
+footer main .zhong h2{
+	font-size: 14px;
+	color: #fff;
+	font-weight: 400;
+}
+footer main .zhong h3{
+	font-size: 14px;
+	color: #fff;
+	font-weight: 400;
+	margin-top: 10px;
+}
+footer main .zhong ul{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin-top: 35px;
+}
+footer main .zhong ul li{
+	width: auto;
+	height: auto;
+	float: left;
+	margin-right: 20px;
+}
+footer main .zhong ul li:last-child{
+	margin-right: 0;
+}
+footer main .zhong ul li a{
+	font-size: 16px;
+	color: #fff;
+}
+footer main img{
+	width: 217px;
+	height: 210px;
+	display: block;
+	float: right;
+}
