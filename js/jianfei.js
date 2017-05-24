@@ -2,8 +2,8 @@ $(function(){
 	var headtiao=$(".headtiao")[0];
 	var list=$('.biaoti');
 	for(var i=0;i<list.length;i++){
-		var w=list[2].offsetWidth;
-		var wx=list[2].offsetLeft-list[0].offsetLeft;
+		var w=list[6].offsetWidth;
+		var wx=list[6].offsetLeft-list[0].offsetLeft;
 		headtiao.style.width=w+'px';
 		headtiao.style.left=wx+"px";
 	}

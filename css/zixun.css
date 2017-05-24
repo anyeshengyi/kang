@@ -26,7 +26,7 @@ header main ul li{
 	margin: 0 16px;
 	
 }
-header main ul li:first-child{
+header main ul li{
 	position: relative;
 }
 header main ul li a{
@@ -44,8 +44,7 @@ header main ul li span{
 	background: #ff3795;
 	position: absolute;
 	left: 0;
-	right: 0;
-	margin: 0 auto;
+	
 	bottom: 0;
 	transition: all 0.2s linear;
 }

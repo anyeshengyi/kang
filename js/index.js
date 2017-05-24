@@ -3,6 +3,12 @@ $(function(){
 	var list=$('.biaoti');
 	var w;
 	var wx;
+	for(var i=0;i<list.length;i++){
+		 w=list[0].offsetWidth;
+		 wx=list[0].offsetLeft-list[0].offsetLeft;
+		headtiao.style.width=w+'px';
+		headtiao.style.left=wx+"px";
+	}
 	for(let i=0;i<list.length;i++){
 		list[i].onmouseover=function(){
 			w=list[i].offsetWidth;
